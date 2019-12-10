@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "MorgenDraft",
+    "description": "MorgenDraft Mobile App",
+    "slug": "StanfordDaily",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "version": "1.2.2",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "primaryColor": "#FCFCFC",
+    "icon": "./assets/icon.png",
+    "scheme": "morgendraft",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#FCFCFC"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FCFCFC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 5000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.Stanford.Daily.App",
+      "buildNumber": "8",
+      "appStoreUrl": "https://itunes.apple.com/app/stanford-daily/id1341270063",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Stanford.Daily.App",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 10,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.Stanford.Daily.App",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "NOTIFICATIONS"
+      ]
+    },
+    "notification": {
+      "icon": "./assets/icon.png"
+    }
+  }
+}
